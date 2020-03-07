@@ -1,3 +1,10 @@
+/* WordCountMapper.java
+ *  Mapper Class for the Hadoop WordCount Application.
+ *  Author: Amr Elzawawy
+ *  Created: 3 March 2020
+ *  Developed For: Assignment 1 for Netcentric Computing & Distributed Systems Course offering at Spring 2020
+ */
+
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
@@ -37,7 +44,7 @@ public class WordCountMapper extends Mapper<Object, Text, Text, IntWritable> {
      */
     public void map(Object inputKey, Text inputValue, Context context) throws IOException, InterruptedException {
         StringTokenizer stringTokenizer = new StringTokenizer(inputValue.toString());
-        // for each token in the input data.
+        // for each token in the input data set.
         while (stringTokenizer.hasMoreTokens()) {
             //set the Word to the current token in hand.
             word.set(stringTokenizer.nextToken());

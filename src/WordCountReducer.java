@@ -1,3 +1,10 @@
+/* WordCountReducer.java
+ *  Reducer Class for the Hadoop WordCount Application.
+ *  Author: Amr Elzawawy
+ *  Created: 3 March 2020
+ *  Developed For: Assignment 1 for Netcentric Computing & Distributed Systems Course offering at Spring 2020
+ */
+
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
