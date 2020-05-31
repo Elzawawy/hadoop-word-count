@@ -1,8 +1,7 @@
 # HadoopWordCount
-<p align='center'>Made with :heart: by <b>Amr Elzawawy</b></p>
 <p align='center'><img src="https://itwadi.com/files/Hadoop.png"/></p>
 
-This was developed as Assignment 1, **Netcentric computing and Distributed Systems** course offered by AlexU.
+This was developed as Assignment 1, **Netcentric computing and Distributed Systems** course offered by Alexandria University Spring 2020 Offering.
 
 ## What is Hadoop ?
 [Apache Hadoop](https://hadoop.apache.org/) is a collection of open-source software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation **(Yup ! That's Big Data)**. It provides massive storage for any kind of data, enormous processing power and the ability to handle virtually limitless concurrent tasks or jobs.
