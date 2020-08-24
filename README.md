@@ -1,6 +1,6 @@
 # HadoopWordCount
 
-Developed at **Netcentric computing and Distributed Systems** course by Alexandria University Spring 2020 Offering.
+This individual work was developed as an assignment for **Netcentric computing and Distributed Systems** course from CCE Department, Faculty of Engineering, Alexandria University Spring 2020 Offering.
 
 <p align='center'><img src="https://itwadi.com/files/Hadoop.png"/></p>
 
